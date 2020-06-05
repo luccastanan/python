@@ -15,12 +15,3 @@ class Aluno:
     
     def calc_media(self):
         return sum(self.notas) / len(self.notas)
-
-aluno1 = Aluno('Luccas', "Galuppo Tanan", 22, 'Ciência da Computação')
-aluno2 = Aluno('Bruno', 'Marcos', 27, 'Engenharia da Computação' )
-
-aluno1.adicionar_nota(50)
-aluno1.adicionar_nota(60)
-aluno1.adicionar_nota(70)
-aluno1.adicionar_nota(80)
-print(aluno1.calc_media())
